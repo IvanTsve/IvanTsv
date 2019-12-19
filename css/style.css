@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;  
+}
+
+body {
+    background:#efefef;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-right: 2rem;
+}
+
+.about-me {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../media/photo-1472437774355-71ab6752b434.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 15rem;
+}
+.about-me h1,.about-me p {
+    color: white;
+    text-shadow: 2px 2px #000000;
+    width: 45%;
+    text-align: center;
+    padding: 2rem;
+}
+.about-me p {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+/* courses */
+
+.courses {
+    padding: 3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+    
+}
+.courses .courses-list li {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 5px 0;
+    
+}
+.courses .courses-list li::before {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f00c';
+    display: inline-block;
+    font-weight: 900;
+    color: green;
+    margin-right: 0.5rem;
+}
+
+/* certificates */
+
+.certificates{
+    padding-top: 3rem;
+}
+
+
+.certificate-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    
+}
+
+.certificate-list li img{
+    display: inline;
+    width: 300px;
+    height: auto;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+/* Footer */
+
+footer {
+    padding: 1rem;
+    border-top: 1px solid #000;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
