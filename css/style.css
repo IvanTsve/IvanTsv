@@ -107,3 +107,16 @@ footer ul {
 }
 
 
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+
+    .about-me h1, .about-me p {
+        width: 80%;
+    }
+
+    footer ul {
+        display: block;
+    }
+  }
