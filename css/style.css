@@ -90,9 +90,23 @@ body {
     background-color: #fff;
 }
 
+/* projects */
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.projects div{
+    margin: 1em;
+}
+
+
 /* Footer */
 
-footer {
+footer,
+.projects {
     padding: 1rem;
     border-top: 1px solid #000;
 }
