@@ -134,3 +134,8 @@ footer ul {
         display: block;
     }
   }
+
+
+  #projects-section figure {
+      position: unset;
+  }
